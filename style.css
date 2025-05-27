@@ -1,0 +1,175 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: black;
+  /* background: black url(images/Beacon.png) no-repeat bottom right;
+  background-size: 75px; */
+  color: white;
+  font: 12pt/1.5 "Times New Roman";
+  border: 8px #876c94 solid;
+}
+
+h1 {
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  word-spacing: 1em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 10px;
+  padding: 10px;
+  letter-spacing: 0.1em;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 10px;
+  padding: 5px;
+}
+
+section {
+  margin: 7px;
+  margin-top: 15px;
+  border: 2px #c336c3 dashed;
+}
+
+p {
+  padding: 4px;
+  margin: 7px;
+}
+
+a {
+  color: #c336c3;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0;
+  left: 8;
+  width: 220px;
+  margin: 216px 8px 8px 60px;
+}
+
+#content {
+  margin-left: 350px;
+  margin-bottom: 8px;
+  width: 800px;
+  padding: 15px;
+  border: 8px #876c94 solid;
+}
+
+header {
+  margin: 20px;
+  padding: 30px;
+  border: 5px #c336c3 solid;
+}
+
+footer {
+  margin: 2px;
+  position: relative;
+}
+
+#pluto_context {
+  position: absolute;
+  left: 700px;
+  top: 750px;
+}
+  
+.cover {
+  margin: 50px;
+}
+
+.entry {
+  margin: 10px 14px 14px 10px;
+  border-style: dotted;
+}
+
+#entries {
+  height: 500px;
+  max-height: 500px;
+  overflow-y: scroll;
+  border-top: 2px #c336c3 dashed;
+  margin-top: 2px;
+}
+
+button {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+#treason {
+  position: absolute;
+  left: 700px;
+  top: 550px;
+}
+
+#dragon {
+  position: absolute;
+  left: 350px;
+  top: 500px;
+  width: 900px;
+}
+
+.navi {
+  color: white;
+}
+
+#home {
+  list-style-type: none;
+  padding: 0px 0px 10px 40px;
+  background-image: url(images/ButCinPie.png);
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
+#reading {
+  list-style-type: none;
+  padding: 10px 0px 10px 40px;
+  background-image: url(images/book.png);
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
+#journal {
+  list-style-type: none;
+  padding: 10px 0px 10px 40px;
+  background-image: url(images/journal.jpg);
+  background-size: 26px;
+  background-repeat: no-repeat;
+}
+
+#space {
+  list-style-type: none;
+  padding: 10px 0px 0px 40px;
+  background-image: url(images/moon.jpg);
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
+#politics {
+  list-style-type: none;
+  padding: 10px 0px 0px 40px;
+  background-image: url(images/democracy.svg);
+  filter: invert(1);
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
+#reverseColor {
+  color: #3cc93c;
+}
+
+#sidebar_lost {
+  position: absolute;
+  top: 0;
+  left: 8;
+  width: 220px;
+  margin: 8px 8px 8px 60px;
+}
